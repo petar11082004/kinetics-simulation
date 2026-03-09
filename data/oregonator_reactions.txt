@@ -1,0 +1,6 @@
+# Oregonator elementary reactions (all irreversible in this model)
+A + Y -> X + P ; kf=1.34 ; label=k1
+X + Y -> P ; kf=1.6e9 ; label=k2
+B + X -> 2 X + Z ; kf=8.0e3 ; label=k3
+2 X -> Q ; kf=4.0e7 ; label=k4
+Z -> Y ; kf=1.0 ; label=k5

@@ -1,0 +1,4 @@
+# species concentration
+D 1.0
+I 0.0
+N 0.0

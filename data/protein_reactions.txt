@@ -1,0 +1,5 @@
+# Protein folding pathway for two-domain protein
+# Format: reactants <-> products ; kf=<float> ; kb=<float> ; mf=<float> ; mb=<float>
+# kf(urea) = kf * exp(mf * [urea]); kb(urea) = kb * exp(mb * [urea])
+D <-> I ; kf=2.6e4 ; kb=6.0e-2 ; mf=-1.68 ; mb=0.95 ; label=R15
+I <-> N ; kf=730.0 ; kb=7.5e-4 ; mf=-1.72 ; mb=1.20 ; label=R16
